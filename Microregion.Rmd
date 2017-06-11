@@ -3,9 +3,9 @@ title: "Microregion"
 output: html_notebook
 ---
 
-This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. 
 
-Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
+Pense que si los ponías de otra forma, en lugar de columnas en un par de columnas stackeadas, podrías usar luego SQL o algun comando de agrupación para quedarte con la corrección que quisieras. 
 
 ```{r}
 require("readxl")
@@ -24,5 +24,11 @@ referenciantes %>%
  filter(Referencia == 151900828 )
 ```
 
+Por ejempo, si hay datos faltantes que tenes en uno y el otro no, podrías mergear los dos datasets y hacer un max para tomar luego reemplazar los valores faltantes
+
+
+```{r}
+
+```
 
 

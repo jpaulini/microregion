@@ -172,8 +172,8 @@ $(document).ready(function () {
 
 
 <!-- rnb-text-begin -->
-<p>This is an <a href="http://rmarkdown.rstudio.com">R Markdown</a> Notebook. When you execute code within the notebook, the results appear beneath the code.</p>
-<p>Try executing this chunk by clicking the <em>Run</em> button within the chunk or by placing your cursor inside it and pressing <em>Cmd+Shift+Enter</em>.</p>
+<p>This is an <a href="http://rmarkdown.rstudio.com">R Markdown</a> Notebook.</p>
+<p>Pense que si los ponías de otra forma, en lugar de columnas en un par de columnas stackeadas, podrías usar luego SQL o algun comando de agrupación para quedarte con la corrección que quisieras.</p>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
 <!-- rnb-source-begin eyJkYXRhIjoiYGBgclxucmVxdWlyZShcInJlYWR4bFwiKVxucmVxdWlyZShcInRpZHlyXCIpXG5yZXF1aXJlKFwiZHBseXJcIilcbnJlZmVyZW5jaWFkb3MgPC0gcmVhZF94bHN4KFwiZGF0YS9NaWNyb3JlZ2lvbjEueGxzeFwiLCBzaGVldCA9IFwiUmVmZXJlbmNpYWRvc1wiKVxucmVmZXJlbmNpYW50ZXMgPC0gcmVhZF94bHN4KFwiZGF0YS9NaWNyb3JlZ2lvbjEueGxzeFwiLCBzaGVldCA9IFwiUmVmZXJlbmNpYW5cIilcbnJlZmVyZW5jaWFkb3MgJT4lIFxuICBnYXRoZXIoXCJmaWVsZFwiLFwidmFsdWVcIiwgMzoxMDEpICU+JVxuICBmaWx0ZXIoTnVtZXJvID09IDE1MTkwMDgyOCApXG5gYGAifQ== -->
@@ -208,9 +208,14 @@ referenciantes %&gt;%
 <!-- rnb-frame-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
+<p>Por ejempo, si hay datos faltantes que tenes en uno y el otro no, podrías mergear los dos datasets y hacer un max para tomar luego reemplazar los valores faltantes</p>
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
 <!-- rnb-text-end -->
 
-<div id="rmd-source-code">LS0tCnRpdGxlOiAiTWljcm9yZWdpb24iCm91dHB1dDogaHRtbF9ub3RlYm9vawotLS0KClRoaXMgaXMgYW4gW1IgTWFya2Rvd25dKGh0dHA6Ly9ybWFya2Rvd24ucnN0dWRpby5jb20pIE5vdGVib29rLiBXaGVuIHlvdSBleGVjdXRlIGNvZGUgd2l0aGluIHRoZSBub3RlYm9vaywgdGhlIHJlc3VsdHMgYXBwZWFyIGJlbmVhdGggdGhlIGNvZGUuIAoKVHJ5IGV4ZWN1dGluZyB0aGlzIGNodW5rIGJ5IGNsaWNraW5nIHRoZSAqUnVuKiBidXR0b24gd2l0aGluIHRoZSBjaHVuayBvciBieSBwbGFjaW5nIHlvdXIgY3Vyc29yIGluc2lkZSBpdCBhbmQgcHJlc3NpbmcgKkNtZCtTaGlmdCtFbnRlciouIAoKYGBge3J9CnJlcXVpcmUoInJlYWR4bCIpCnJlcXVpcmUoInRpZHlyIikKcmVxdWlyZSgiZHBseXIiKQoKcmVmZXJlbmNpYWRvcyA8LSByZWFkX3hsc3goImRhdGEvTWljcm9yZWdpb24xLnhsc3giLCBzaGVldCA9ICJSZWZlcmVuY2lhZG9zIikKcmVmZXJlbmNpYW50ZXMgPC0gcmVhZF94bHN4KCJkYXRhL01pY3JvcmVnaW9uMS54bHN4Iiwgc2hlZXQgPSAiUmVmZXJlbmNpYW4iKQoKcmVmZXJlbmNpYWRvcyAlPiUgCiAgZ2F0aGVyKCJmaWVsZCIsInZhbHVlIiwgMzoxMDEpICU+JQogIGZpbHRlcihOdW1lcm8gPT0gMTUxOTAwODI4ICkKICAgICAgCnJlZmVyZW5jaWFudGVzICU+JQogIGdhdGhlcigiZmllbGQiLCAidmFsdWUiLCA0OjEwMikgJT4lCiBmaWx0ZXIoUmVmZXJlbmNpYSA9PSAxNTE5MDA4MjggKQpgYGAKCgoK</div>
+<div id="rmd-source-code">LS0tCnRpdGxlOiAiTWljcm9yZWdpb24iCm91dHB1dDogaHRtbF9ub3RlYm9vawotLS0KClRoaXMgaXMgYW4gW1IgTWFya2Rvd25dKGh0dHA6Ly9ybWFya2Rvd24ucnN0dWRpby5jb20pIE5vdGVib29rLiAKClBlbnNlIHF1ZSBzaSBsb3MgcG9uw61hcyBkZSBvdHJhIGZvcm1hLCBlbiBsdWdhciBkZSBjb2x1bW5hcyBlbiB1biBwYXIgZGUgY29sdW1uYXMgc3RhY2tlYWRhcywgcG9kcsOtYXMgdXNhciBsdWVnbyBTUUwgbyBhbGd1biBjb21hbmRvIGRlIGFncnVwYWNpw7NuIHBhcmEgcXVlZGFydGUgY29uIGxhIGNvcnJlY2Npw7NuIHF1ZSBxdWlzaWVyYXMuIAoKYGBge3J9CnJlcXVpcmUoInJlYWR4bCIpCnJlcXVpcmUoInRpZHlyIikKcmVxdWlyZSgiZHBseXIiKQoKcmVmZXJlbmNpYWRvcyA8LSByZWFkX3hsc3goImRhdGEvTWljcm9yZWdpb24xLnhsc3giLCBzaGVldCA9ICJSZWZlcmVuY2lhZG9zIikKcmVmZXJlbmNpYW50ZXMgPC0gcmVhZF94bHN4KCJkYXRhL01pY3JvcmVnaW9uMS54bHN4Iiwgc2hlZXQgPSAiUmVmZXJlbmNpYW4iKQoKcmVmZXJlbmNpYWRvcyAlPiUgCiAgZ2F0aGVyKCJmaWVsZCIsInZhbHVlIiwgMzoxMDEpICU+JQogIGZpbHRlcihOdW1lcm8gPT0gMTUxOTAwODI4ICkKICAgICAgCnJlZmVyZW5jaWFudGVzICU+JQogIGdhdGhlcigiZmllbGQiLCAidmFsdWUiLCA0OjEwMikgJT4lCiBmaWx0ZXIoUmVmZXJlbmNpYSA9PSAxNTE5MDA4MjggKQpgYGAKClBvciBlamVtcG8sIHNpIGhheSBkYXRvcyBmYWx0YW50ZXMgcXVlIHRlbmVzIGVuIHVubyB5IGVsIG90cm8gbm8sIHBvZHLDrWFzIG1lcmdlYXIgbG9zIGRvcyBkYXRhc2V0cyB5IGhhY2VyIHVuIG1heCBwYXJhIHRvbWFyIGx1ZWdvIHJlZW1wbGF6YXIgbG9zIHZhbG9yZXMgZmFsdGFudGVzCgoKYGBge3J9CgpgYGAKCgo=</div>
 
 
 
